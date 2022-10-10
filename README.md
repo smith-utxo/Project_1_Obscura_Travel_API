@@ -3,6 +3,9 @@
 ##  User Story
 As a Traveler I WANT to be able to search my destination and figure out the weather SO THAT I know how I am going to pack for my trip. I also WANT to be able to figure out how much money I will need to bring SO THAT I can get everything ready before hand. This will be more convenient to be done all at once so I don’t need to travel to different webpages and can be ready for a trip at a moment’s notice.
 
+## Deployed URL: 
+https://smith-utxo.github.io/Project_1_Obscura_Travel_API/ 
+
 ## Technologies
 -CSS
 -HTML
