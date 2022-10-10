@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/230a732877.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <title>Obscura Travel</title>
+</head>
+<body>
+    <!--set background pic for layout-->
+    <section class="bgpic"></section>
+    <!--set header items-->
+    <section class="header">
+        <h1>OBSCURA TRAVEL</h1>
+    </section>
+    <div class="currency-city columns">
+        <div class="currency column is-9">
+            <section class="currency-container">
+                <br>
+                <h3 id="currency-text1" class="currency-text">Exchange Rates Per Dollar: </h3>
+                <i class="fa-solid fa-money-bill-transfer fa-xl fa-flip"></i>
+                <select id="currency-dropdown"></select><br>
+                <textarea rows="7" cols="27" name="explanation" id="currency-text2"></textarea>
+                <h2 id="date">API TWO Currency</h2>
+                <div>
+                </div>
+            </section>
+        </div>
+        <div class="savebox column is-3">
+            <!-- Zac's Code -->
+            Search for a City:<br />
+            <input type=text id=textboxSearch class="search-box">
+            <button class = "button is-success"id=search onclick="searchFunction()">Search</button><br />
+            <p>Search History:</p>
+            <div class="search-box">
+                <ul id="searchHistory"></ul>
+            </div>
+            <!-- end Zac's code -->
+        </div>
+    </div>
+    <div class="">
+        <div class=" level">
+            <section class="weather level-item has-text-centered">
+                <h2 id="date0"></h2>
+                <h2 id="temperature"></h2>
+                <img id="temp-icon"></img>
+                <div>
+                    <h2 id="date1"></h2>
+                    <h2 id="forecast1"></h2>
+                    <img id="icon1"></img>
+                </div>
+                <div>
+                    <h2 id="date2"></h2>
+                    <h2 id="forecast2"></h2>
+                    <img id="icon2"></img>
+                </div>
+                <div>
+                    <h2 id="date3"></h2>
+                    <h2 id="forecast3"></h2>
+                    <img id="icon3"></img>
+                </div>
+                <div>
+                    <h2 id="date4"></h2>
+                    <h2 id="forecast4"></h2>
+                    <img id="icon4"></img>
+                </div>
+            </section>
+        </div>
+    </div>
+    <section class="packing-list">
+        <p> There are literally dozens of sites comparing flight and hotel prices. Obscura was designed not to compete
+            with these sites, but rather, compliment. Whether your traveling for business or pleasure, most everyone
+            remembers to book their hotel. It's the little things we forget: an umbrella for a rainy day, a swimsuit for
+            the beach, or local currency for that hole in the wall restaurant everyone in town raves about. Obscura's
+            got you covered. We'll help make sure you don't forget ... <a
+                href="https://www.smartertravel.com/wp-content/uploads/2019/05/The-Ultimate-Packing-List_Interactive-FINAL.pdf" class="button is-danger is-large">
+                YOUR PACKING LIST!</a>
+        </p>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./assets/script.js"></script>
+</body>
+</html>
